@@ -153,12 +153,12 @@ int main() {
 			string LastName;
 			menu_1 = 0;
 			int adherent;
-			cout << "Quel est votre NomPrénom (sans espace entre les deux) ?"<<endl;
+			cout << "Quel est votre NomPrénom (sans espace entre les deux) ?/n Si le nom n'est pas trouvé vous serez renvoyé à ce menu"<<endl;
 			cin >> LastName;
 			unsigned int i;
 			for (i=0; i<member_list.size(); i++){
 				if (member_list[i].get_lastname()+member_list[i].get_firstname() == LastName && member_list[i].get_lib()==lib_list[LIB]){
-					adherent = i;
+                    adherent = i;
 					cout<<"L'adhérent a été trouvé dans la base de données de cette bibliothèque"<<endl;
 					int choix_menu_adherent;
 					while (choix_menu_adherent != 1 ){
@@ -199,7 +199,7 @@ int main() {
 					}
 				}
 			}
-			cout << "L'adhérent n'a pas été trouvé dans la base de données"<<endl;
+
 
 		}
 
