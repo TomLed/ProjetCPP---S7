@@ -26,8 +26,8 @@ string Book::detarget() {
 }
 
 void Book::affiche() {
-    cout<<"auteur :"<<author<<" titre :"<<title<<" public :"<<detarget()<<
-        " état"<<state<<" book_id= "<<book_id <<"Possédé par librairie "<<lib_id<<endl;
+    cout<<" auteur :"<<author<<"\n titre : "<<title<<"\n public : "<<detarget()<<
+        "\n état "<<state<<"\n book_id= "<<book_id <<"\n Possédé par librairie "<<lib_id<<endl;
 }
 
 void Book::is_available() {

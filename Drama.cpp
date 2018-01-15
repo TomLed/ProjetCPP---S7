@@ -17,5 +17,5 @@ string Drama::decentury() {
 
 void Drama::affiche() {
     Book::affiche();
-    cout<<"Siècle : "<<decentury()<<endl;
+    cout<<"Siècle : "<<decentury()<<"\n"<<endl;
 }

@@ -30,7 +30,7 @@ public:
     void set_firstname(string new_firstname) { firstname = new_firstname; }
     string get_adress() { return adress; }
     void set_adress(string new_adress) { adress = new_adress; }
-    string get_lib() { return lib->get_name(); }
+    Library* get_lib() { return lib; }
     void set_lib(Library* L) { lib = L; }
     vector<Book*> get_detained_books() { return detained_books; }
     int get_nb_allowed() { return nb_allowed; }

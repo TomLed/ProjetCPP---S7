@@ -15,5 +15,5 @@ string Poetry::detype() {
 
 void Poetry::affiche() {
     Book::affiche();
-    cout<<"Type : "<<detype()<<endl;
+    cout<<"Type : "<<detype()<<"\n"<<endl;
 }

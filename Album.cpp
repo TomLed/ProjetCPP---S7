@@ -16,5 +16,5 @@ string Album::deillustration() {
 
 void Album::affiche() {
     Book::affiche();
-    cout<<"Type d'illustration : "<<deillustration()<<endl;
+    cout<<"Type d'illustration : "<<deillustration()<<"\n"<<endl;
 }

@@ -21,5 +21,5 @@ string Novel::detype() {
 
 void Novel::affiche() {
     Book::affiche();
-    cout<<"Genre : "<<detype()<<endl;
+    cout<<"Genre : "<<detype()<<"\n"<<endl;
 }

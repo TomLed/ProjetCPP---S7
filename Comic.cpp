@@ -11,5 +11,5 @@ Comic::Comic(string author, string title, string editor, string isbn, Target tar
 
 void Comic::affiche() {
     Book::affiche();
-    cout<<"dessinateur : "<<drawer<<endl;
+    cout<<"dessinateur : "<<drawer<<"\n"<<endl;
 }
